@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+</head>
+
+<body>
+    <div class="px-[200px] pt-[100px]">
+        <div id="canvas">
+            <div id="captcha-wrapper" class="captcha-wrapper h-[100px] py-4 relative  w-[500px]">
+                <img id="captchaImg1" src="./bg-1.JPG" class="w-full captchaImg absolute top-0 left-0 h-full" alt="">
+                <img id="captchaImg2" src="./bg-2.webp" class="w-full h-full captchaImg absolute top-0 left-0" alt="">
+                <img id="captchaImg3" src="./bg-3.webp" class="w-full  h-full captchaImg absolute top-0 left-0" alt="">
+                <img id="captchaImg4" src="./bg-4.jpeg" class="w-full  h-full captchaImg absolute top-0 left-0" alt="">
+                <div class="relative z-[100] flex items-center justify-center h-full">
+                    <div class="textWrapper  text-center text-black">
+                        <p class="text-wrapper opacity-60 flex justify-center mb-8 "></p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="px-4 py-4 bg-slate-900 mt-8 w-[500px]">
+            <div class="flex">
+                <input id="input" type="text" class="px-4 py-2">
+                <div class="flex">
+                    <button id="check" class="text-white bg-red-500 px-4 py-2">Check</button>
+                    <div class="">
+                        <button id="reload" class="px-2 py-2  bg-rose-500 ml-2">Reload</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+<script src="./script.js"></script>
+
+<!-- <script>
+    const div = document.getElementById('captcha-wrapper');
+    html2canvas(div).then(canvas => {
+        // canvas now contains the image of the div
+        document.querySelector('#canvas').appendChild(canvas); // display the canvas
+        // document.querySelector('#captcha-wrapper').remove(); // display the canvas
+
+    });
+</script> -->
+
+</html>

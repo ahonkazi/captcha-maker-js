@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Rubik+Lines&family=Special+Elite&display=swap');
+
+* {
+    font-family: "Special Elite";
+}
+
+.captcha-bg-active {
+    z-index: 10;
+}
+
+.font-1 {
+    font-size: 70px;
+    padding: 0px 15px;
+    transform: rotate(4deg);
+    display: block;
+}
+
+.font-2 {
+    font-size: 51px;
+    padding: 0px 0px;
+    transform: rotate(6deg);
+    display: block;
+
+
+
+
+}
+
+.font-3 {
+    font-size: 30px;
+    padding: 0px 10px;
+    transform: rotate(-4deg);
+    font-family: "Creepster";
+    display: block;
+
+}
+
+.font-4 {
+    font-size: 36px;
+    padding: 0px 5px;
+    transform: rotate(-10deg);
+
+    display: block;
+
+}
+
+.font-5 {
+    font-size: 60px;
+    padding: 0px 4px;
+    transform: rotate(-16deg);
+    display: block;
+
+
+
+}
+
+.hidden {
+    display: none;
+}
